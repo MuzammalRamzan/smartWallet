@@ -26,7 +26,7 @@ yarn install
 
 3:  How to run:
  ```bash
-npx hardhat compile
-=npx hardhat run scripts/deploy.js --network yourNetwork
+1: npx hardhat compile
+2: npx hardhat run scripts/deploy.js --network yourNetwork
 
 
