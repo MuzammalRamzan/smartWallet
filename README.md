@@ -24,9 +24,9 @@ Before you begin, ensure you have the following installed:
 2. **Install Dependencies:**
 yarn install
 
-3: **Compile Contracts:**
+3: ** How to run:**
+ ```bash
 npx hardhat compile
-4: **Deploy Contracts:**
-npx hardhat run scripts/deploy.js --network yourNetwork
+=npx hardhat run scripts/deploy.js --network yourNetwork
 
 
