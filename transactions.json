@@ -1,0 +1,39 @@
+{
+    "chainID": 11155111,
+    "nodeRpcUrl": "https://sepolia.infura.io/v3/84768e0199ec4a499d42c20ccf86f667",
+    "zeroDevProjectId": "ecdafec9-9d42-42ff-9d02-7bbbbbd72a3c",
+    "accountPrivateKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "maxPriorityFeePerGas": 100000000,
+    "maxFeePerGas": 1500744276,
+    "gaslimit": 200000,
+    "createWallets": [
+        "C560E9DE-CC2B-41BD-9678-9D830EEA419E",
+        "E9DEC560-CC2B-41BD-9678-839D0EEA9E41",
+        "60C59678-E9DE-CC2B-41BD-9D830EEA4E19",
+        "C560E9DE-41BD-9678-CC2B-309D841EEA9E",
+        "8AA196C7-83C2-498D-93D6-CD4E8D617659"
+    ],
+    "transActions": {
+        "tokenAddress": "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8",
+        "intoTreasury": [
+            {
+                "smartWalletAddress": "0x6f7A6f9c3099535a4302CC70700495Ddaa5D8Bec",
+                "transferAmount": "10"
+            },
+            {
+                "smartWalletAddress": "0xDdaa5D8Be6f35a4302CC7095995c70047A6f9c30",
+                "transferAmount": "15"
+            }
+        ],
+        "exitTreasury": [
+            {
+                "smartWalletAddress": "0x35a4302CC7095Ddaa5D8Be6f7A6f9c30995c7004",
+                "transferAmount": "5"
+            },
+            {
+                "externalAccAddress": "0xdaa5D8B95c7004e6f7A6f35a4302CC7095D9c309",
+                "transferAmount": "3"
+            }
+        ]
+    }
+}
